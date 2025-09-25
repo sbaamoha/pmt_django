@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# --- Virtual Environment ---
+venv/
+.env/
+.venv/
+.env
+# --- Django stuff ---
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Environments & Config ---
+.env.local
+.env.*.local
+.envrc
